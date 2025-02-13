@@ -12,5 +12,13 @@ fun main() {
 // Función que debe desarrollar la lógica para la solución del problema
 fun problema8() {
     // Desarrolle aquí la lógica
+    println("n:")
+    val n = readln().toInt()
+    var total = 1
+    for (i in 1..n) {
+        total *= i
+    }
+
+    println("$n ! = $total")
 
 }

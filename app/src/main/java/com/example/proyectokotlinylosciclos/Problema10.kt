@@ -12,5 +12,15 @@ fun main() {
 // Función que debe desarrollar la lógica para la solución del problema
 fun problema10() {
     // Desarrolle aquí la lógica
-
+    println("n:")
+    val n = readln().toInt()
+    if (n <= 0 || n > 9) {
+        println("Error")
+    } else {
+        var row = ""
+        for (i in 1..n) {
+            row += i.toString()
+            println(row)
+        }
+    }
 }
